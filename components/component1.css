@@ -1,0 +1,31 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-text {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.component1-root-class-name {
+  text-align: center;
+}
+.component1-root-class-name1 {
+  text-align: center;
+}
+@media(max-width: 1440px) {
+  .component1-text {
+    color: var(--dl-color-gray-white);
+  }
+  .component1-root-class-name {
+    text-align: center;
+  }
+  .component1-root-class-name1 {
+    text-align: center;
+  }
+}
+@media(max-width: 991px) {
+  .component1-text {
+    text-align: center;
+  }
+}

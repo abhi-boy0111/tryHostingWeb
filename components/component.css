@@ -1,0 +1,32 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+}
+.component-root-class-name {
+  text-align: center;
+}
+.component-root-class-name1 {
+  text-align: center;
+}
+@media(max-width: 1440px) {
+  .component-text {
+    color: var(--dl-color-gray-white);
+    font-size: 3rem;
+    text-align: center;
+  }
+  .component-text6 {
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  }
+}
+@media(max-width: 991px) {
+  .component-text {
+    text-align: center;
+  }
+  .component-text1 {
+    text-align: center;
+  }
+}
